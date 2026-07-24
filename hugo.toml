@@ -1,3 +1,47 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://opensourcesailing.com/"
+title = "Open Source Sailing"
+theme = "hextra"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    label = "English"
+    weight = 1
+
+[params]
+  description = "Open Source Sailing - Code. Sail. Share. Connect."
+
+[[menu.main]]
+name = "Projects"
+pageRef = "/projects"
+weight = 10
+
+[[menu.main]]
+name = "Documentation"
+pageRef = "/documentation"
+weight = 20
+
+[[menu.main]]
+name = "Media"
+pageRef = "/media"
+weight = 30
+
+[[menu.main]]
+name = "Community"
+pageRef = "/community"
+weight = 40
+
+[[menu.main]]
+name = "About"
+pageRef = "/about"
+weight = 50
+
+[[menu.main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 60
+
+[[menu.main]]
+name = "Get Involved"
+pageRef = "/get-involved"
+weight = 70

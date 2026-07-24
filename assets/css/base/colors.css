@@ -1,0 +1,27 @@
+:root {
+
+    /* Brand */
+
+    --oss-blue: #0F4C81;
+    --oss-dark: #082032;
+    --oss-light: #F8FAFC;
+
+    /* Accent */
+
+    --oss-orange: #FF8C42;
+
+    /* Status */
+
+    --oss-success: #22C55E;
+    --oss-warning: #FACC15;
+    --oss-danger: #EF4444;
+
+    /* Grayscale */
+
+    --gray-100:#F8FAFC;
+    --gray-200:#E2E8F0;
+    --gray-300:#CBD5E1;
+    --gray-500:#64748B;
+    --gray-700:#334155;
+    --gray-900:#0F172A;
+}

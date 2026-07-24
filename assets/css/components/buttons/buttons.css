@@ -1,0 +1,37 @@
+.btn{
+
+    display:inline-block;
+
+    padding:16px 28px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn-primary{
+
+    background:var(--oss-blue);
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    background:#0b3d66;
+
+}
+
+.btn-secondary{
+
+    border:2px solid var(--oss-blue);
+
+    color:var(--oss-blue);
+
+}
